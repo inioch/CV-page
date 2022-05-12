@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+</head>
+
+<body class="gradient-tlo text-light bg-dark vh-100">
+  <!-- NAv -->
+  <nav class="navbar  navbar-dark gradient-tlo fixed-top p-3 " style="width: 10px;">
+    <div class="container-fluid ">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse m-2" id="navbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-2 bg-dark">
+          <li class="nav-item"><a href="" class="nav-link active text-uppercase">home</a></li>
+          <li class="nav-item"><a href="#About" class="nav-link text-uppercase">About</a></li>
+          <li class="nav-item"><a href="#Projekt" class="nav-link text-uppercase">Projects</a></li>
+          <li class="nav-item"><a href="#Contact" class="nav-link text-uppercase">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-6  siatka container  align-content-center">
+
+
+        <img class="img-thumbnail 
+                rounded 
+                img-fluid 
+                h-25 
+                mx-auto
+                d-block
+                my-5" src="./meida/szachownica.png" alt="Nie lubie swojej twarzy wole szachownice"
+          data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top"
+          data-bs-content="I don't like my view">
+
+        <h1 class="text-center font-monospace">My name is Paweł</h1>
+        <h4 class="text-center mt-3 font-monospace mx-4 p-2">I try my best to be the best
+          Front End Developer</h4>
+      </div>
+
+      <div id="About" class="col-md-6  container">
+
+        <h3 class="mt-5">About me</h3>
+        <p>I am 24 years old guy, who is looking for palce on the world. </p>
+
+        <h3 class="text-start my-3">My Skills</h3>
+        <h4>HTML & CSS</h4>
+        <p>I hope well known</p>
+        <h4>Javascript</h4>
+        <p>I still learn but Unity helped me a bit</p>
+        <h4>Bootstrap</h4>
+        <p>Begginer</p>
+        <h4>Language</h4>
+        <p>Polish is my primary, English fluent, German mid</p>
+      </div>
+      <!-- Strony -->
+      <main >
+
+        <div id="Projekt" class="container d-block justify-content-center justify-content-around d-sm-flex ">
+          <div class="container row g-2  d-flex justify-content-center">
+            <div class="card col-md-3 col-sm-12 bg-dark text-center ">
+              <img src="./meida/5x5.png" alt="" srcset="">
+              <div class="card-body bg-white text-center text-secondary">
+                <a href="./5x5/5x5.html" class="link-danger fs-3 text-decoration-none">Gra 5x5</a>
+                <p class="fs-4"> Prosta gra polegająca na zgadywaniu wyrazów</p>
+              </div>
+            </div>
+            <div class="card col-md-3 col-sm-12 bg-dark">
+              <img src="./meida/colorchange.png" alt="" srcset="">
+              <div class="card-body text-center bg-white">
+                <a href="./color change/colorchange.html" class="link-danger fs-3 text-decoration-none" >Generator kolorów</a>
+                <p class="fs-4 text-secondary">Generator losowego koloru wraz z wartosciami HEX i RGB</p>
+              </div>
+            </div>
+            <div class="card col-md-3 col-sm-12 bg-dark">
+              <img src="./meida/counter.png" alt="" srcset="">
+              <div class="card-body text-center bg-white">
+                 <a href="./counter/counter.html" class="link-danger fs-3 text-decoration-none">Licznik</a>
+                 <p class="fs-4 text-secondary">Program do liczenia</p>
+              </div>
+            </div>
+            <div class="container row g-2  d-flex justify-content-center">
+            <div class="card col-md-3 col-sm-12 bg-dark">
+              <img src="./meida/currentdate.png" alt="" srcset="">
+              <div class="card-body text-center bg-white">
+                 <a href="./current date/minutnik.html" class="link-danger fs-3 text-decoration-none">Zegar</a>
+                 <p class="fs-4 text-secondary">Zegar z przybliżeniem i trybem nocnym</p>
+              </div>
+            </div>
+            <div class="card col-md-3 col-sm-12 bg-dark">
+              <img src="./meida/timezones.png" alt="" srcset="">
+              <div class="card-body text-danger bg-white">
+                 <a href="./timezone/countdown/timezone.html" class="link-secondary fs-3 text-decoration-none">Strefy czasowe</a>
+                 <p class="fs-4 text-secondary">Aplikacje pokazująca czas w innych miastach</p>
+              </div>
+            </div>
+            
+          </div>
+          </div>
+        </div>
+
+        <footer class="pt-5 mt-5">
+
+          <div id="Contact" class="container d-block justify-content-center justify-content-around d-sm-flex ">
+            <div>
+              <i class="bi bi-envelope "> Pablok144@gmail.com</i>
+            </div>
+            <div>
+              <i class="bi bi-linkedin"> <a class="link-light text-decoration-none" href="https://www.linkedin.com/in/pawe%C5%82-k-92bb761a8/">Linkedin</a> </i>
+            </div>
+            <div>
+              <i class="bi bi-telephone"> 884724891</i>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <!-- popover -->
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+      var popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
+        container: 'body'
+      })
+    </script>
+
+</body>
+
+</html>
